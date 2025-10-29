@@ -22,4 +22,12 @@ public class CustomList {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
+
+    //delete method
+    public void deleteCity(City city) {
+        if (!cities.contains(city))
+            throw new IllegalArgumentException();
+        cities.remove(city);
+    }
+
 }

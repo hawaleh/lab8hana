@@ -13,7 +13,7 @@ public class CustomListTest {
 
 
     //failign test:
-    @test
+
     @Test
     public void testDeleteCity() {
         CustomList list = new CustomList();
